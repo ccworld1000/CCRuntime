@@ -13,6 +13,12 @@
 		0082B16820BE6130007A86E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0082B16720BE6130007A86E6 /* Assets.xcassets */; };
 		0082B16B20BE6130007A86E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0082B16920BE6130007A86E6 /* LaunchScreen.storyboard */; };
 		0082B16E20BE6130007A86E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082B16D20BE6130007A86E6 /* main.m */; };
+		00B4970020BFB1FA0087C74C /* CCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B496FE20BFB1FA0087C74C /* CCRuntime.m */; };
+		00B4970620BFB2900087C74C /* CCProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4970520BFB2900087C74C /* CCProtocol.m */; };
+		00B4970920BFB2BD0087C74C /* CCIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4970820BFB2BD0087C74C /* CCIvar.m */; };
+		00B4970C20BFB2D10087C74C /* CCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4970B20BFB2D10087C74C /* CCMethod.m */; };
+		00B4970F20BFB2E40087C74C /* CCProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4970E20BFB2E40087C74C /* CCProperty.m */; };
+		00B4971220BFB2FB0087C74C /* CCUnregisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4971120BFB2FB0087C74C /* CCUnregisteredClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		0082B16A20BE6130007A86E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0082B16C20BE6130007A86E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0082B16D20BE6130007A86E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00B496FE20BFB1FA0087C74C /* CCRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRuntime.m; sourceTree = "<group>"; };
+		00B496FF20BFB1FA0087C74C /* CCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRuntime.h; sourceTree = "<group>"; };
+		00B4970420BFB2900087C74C /* CCProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCProtocol.h; sourceTree = "<group>"; };
+		00B4970520BFB2900087C74C /* CCProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCProtocol.m; sourceTree = "<group>"; };
+		00B4970720BFB2BD0087C74C /* CCIvar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCIvar.h; sourceTree = "<group>"; };
+		00B4970820BFB2BD0087C74C /* CCIvar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCIvar.m; sourceTree = "<group>"; };
+		00B4970A20BFB2D10087C74C /* CCMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCMethod.h; sourceTree = "<group>"; };
+		00B4970B20BFB2D10087C74C /* CCMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCMethod.m; sourceTree = "<group>"; };
+		00B4970D20BFB2E40087C74C /* CCProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCProperty.h; sourceTree = "<group>"; };
+		00B4970E20BFB2E40087C74C /* CCProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCProperty.m; sourceTree = "<group>"; };
+		00B4971020BFB2FB0087C74C /* CCUnregisteredClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCUnregisteredClass.h; sourceTree = "<group>"; };
+		00B4971120BFB2FB0087C74C /* CCUnregisteredClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCUnregisteredClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 		0082B15D20BE612F007A86E6 /* CCRuntimeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				00B496FD20BFB1FA0087C74C /* CCRuntime */,
 				0082B15E20BE612F007A86E6 /* AppDelegate.h */,
 				0082B15F20BE612F007A86E6 /* AppDelegate.m */,
 				0082B16120BE612F007A86E6 /* ViewController.h */,
@@ -69,6 +88,26 @@
 				0082B16D20BE6130007A86E6 /* main.m */,
 			);
 			path = CCRuntimeDemo;
+			sourceTree = "<group>";
+		};
+		00B496FD20BFB1FA0087C74C /* CCRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				00B496FE20BFB1FA0087C74C /* CCRuntime.m */,
+				00B496FF20BFB1FA0087C74C /* CCRuntime.h */,
+				00B4970420BFB2900087C74C /* CCProtocol.h */,
+				00B4970520BFB2900087C74C /* CCProtocol.m */,
+				00B4970720BFB2BD0087C74C /* CCIvar.h */,
+				00B4970820BFB2BD0087C74C /* CCIvar.m */,
+				00B4970A20BFB2D10087C74C /* CCMethod.h */,
+				00B4970B20BFB2D10087C74C /* CCMethod.m */,
+				00B4970D20BFB2E40087C74C /* CCProperty.h */,
+				00B4970E20BFB2E40087C74C /* CCProperty.m */,
+				00B4971020BFB2FB0087C74C /* CCUnregisteredClass.h */,
+				00B4971120BFB2FB0087C74C /* CCUnregisteredClass.m */,
+			);
+			name = CCRuntime;
+			path = ../../CCRuntime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +136,7 @@
 		0082B15320BE612F007A86E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CC;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "cc | ccworld1000@gmail.com";
 				TargetAttributes = {
@@ -141,9 +181,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B4970020BFB1FA0087C74C /* CCRuntime.m in Sources */,
 				0082B16320BE612F007A86E6 /* ViewController.m in Sources */,
+				00B4970F20BFB2E40087C74C /* CCProperty.m in Sources */,
 				0082B16E20BE6130007A86E6 /* main.m in Sources */,
+				00B4970920BFB2BD0087C74C /* CCIvar.m in Sources */,
+				00B4970620BFB2900087C74C /* CCProtocol.m in Sources */,
 				0082B16020BE612F007A86E6 /* AppDelegate.m in Sources */,
+				00B4970C20BFB2D10087C74C /* CCMethod.m in Sources */,
+				00B4971220BFB2FB0087C74C /* CCUnregisteredClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
