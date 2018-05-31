@@ -17,7 +17,7 @@
 
 @implementation CCObjCIvar
 
-- (id)initWithObjCIvar: (Ivar)ivar
+- (instancetype)initWithObjCIvar: (Ivar)ivar
 {
     if((self = [self init]))
     {
@@ -52,7 +52,7 @@
 
 @implementation CCComponentsIvar
 
-- (id)initWithName: (NSString *)name typeEncoding: (NSString *)typeEncoding
+- (instancetype)initWithName: (NSString *)name typeEncoding: (NSString *)typeEncoding
 {
     if((self = [self init]))
     {
@@ -87,27 +87,27 @@
 
 @implementation CCIvar
 
-+ (id)ivarWithObjCIvar: (Ivar)ivar
++ (instancetype)ivarWithObjCIvar: (Ivar)ivar
 {
     return [[self alloc] initWithObjCIvar: ivar];
 }
 
-+ (id)ivarWithName: (NSString *)name typeEncoding: (NSString *)typeEncoding
++ (instancetype)ivarWithName: (NSString *)name typeEncoding: (NSString *)typeEncoding
 {
     return [[self alloc] initWithName: name typeEncoding: typeEncoding];
 }
 
-+ (id)ivarWithName: (NSString *)name encode: (const char *)encodeStr
++ (instancetype)ivarWithName: (NSString *)name encode: (const char *)encodeStr
 {
     return [self ivarWithName: name typeEncoding: [NSString stringWithUTF8String: encodeStr]];
 }
 
-- (id)initWithObjCIvar: (Ivar)ivar
+- (instancetype)initWithObjCIvar: (Ivar)ivar
 {
     return [[CCObjCIvar alloc] initWithObjCIvar: ivar];
 }
 
-- (id)initWithName: (NSString *)name typeEncoding: (NSString *)typeEncoding
+- (instancetype)initWithName: (NSString *)name typeEncoding: (NSString *)typeEncoding
 {
     return [[CCComponentsIvar alloc] initWithName: name typeEncoding: typeEncoding];
 }
