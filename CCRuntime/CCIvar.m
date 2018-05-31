@@ -8,6 +8,143 @@
 
 #import "CCIvar.h"
 
+
+@interface CCObjCIvar : CCIvar
+{
+    Ivar _ivar;
+}
+@end
+
+@implementation CCObjCIvar
+
+- (id)initWithObjCIvar: (Ivar)ivar
+{
+    if((self = [self init]))
+    {
+        _ivar = ivar;
+    }
+    return self;
+}
+
+- (NSString *)name
+{
+    return [NSString stringWithUTF8String: ivar_getName(_ivar)];
+}
+
+- (NSString *)typeEncoding
+{
+    return [NSString stringWithUTF8String: ivar_getTypeEncoding(_ivar)];
+}
+
+- (ptrdiff_t)offset
+{
+    return ivar_getOffset(_ivar);
+}
+
+@end
+
+@interface CCComponentsIvar : CCIvar
+
+@property (nonatomic, copy) NSString * name;
+@property (nonatomic, copy) NSString * typeEncoding;
+
+@end
+
+@implementation CCComponentsIvar
+
+- (id)initWithName: (NSString *)name typeEncoding: (NSString *)typeEncoding
+{
+    if((self = [self init]))
+    {
+        _name = [name copy];
+        _typeEncoding = [typeEncoding copy];
+    }
+    return self;
+}
+
+- (void)dealloc
+{
+    _name = nil;
+    _typeEncoding = nil;
+}
+
+- (NSString *)name
+{
+    return _name;
+}
+
+- (NSString *)typeEncoding
+{
+    return _typeEncoding;
+}
+
+- (ptrdiff_t)offset
+{
+    return -1;
+}
+
+@end
+
 @implementation CCIvar
+
++ (id)ivarWithObjCIvar: (Ivar)ivar
+{
+    return [[self alloc] initWithObjCIvar: ivar];
+}
+
++ (id)ivarWithName: (NSString *)name typeEncoding: (NSString *)typeEncoding
+{
+    return [[self alloc] initWithName: name typeEncoding: typeEncoding];
+}
+
++ (id)ivarWithName: (NSString *)name encode: (const char *)encodeStr
+{
+    return [self ivarWithName: name typeEncoding: [NSString stringWithUTF8String: encodeStr]];
+}
+
+- (id)initWithObjCIvar: (Ivar)ivar
+{
+    return [[CCObjCIvar alloc] initWithObjCIvar: ivar];
+}
+
+- (id)initWithName: (NSString *)name typeEncoding: (NSString *)typeEncoding
+{
+    return [[CCComponentsIvar alloc] initWithName: name typeEncoding: typeEncoding];
+}
+
+- (NSString *)description
+{
+    return [NSString stringWithFormat: @"<%@ %p: %@ %@ %ld>", [self class], self, [self name], [self typeEncoding], (long)[self offset]];
+}
+
+- (BOOL)isEqual: (id)other
+{
+    return [other isKindOfClass: [CCIvar class]] &&
+    [[self name] isEqual: [other name]] &&
+    [[self typeEncoding] isEqual: [other typeEncoding]];
+}
+
+- (NSUInteger)hash
+{
+    return [[self name] hash] ^ [[self typeEncoding] hash];
+}
+
+- (NSString *)name
+{
+    [self doesNotRecognizeSelector: _cmd];
+    return nil;
+}
+
+- (NSString *)typeEncoding
+{
+    [self doesNotRecognizeSelector: _cmd];
+    return nil;
+}
+
+- (ptrdiff_t)offset
+{
+    [self doesNotRecognizeSelector: _cmd];
+    return 0;
+}
 
 @end
