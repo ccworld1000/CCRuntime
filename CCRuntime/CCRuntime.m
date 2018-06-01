@@ -15,7 +15,7 @@
 
 @implementation NSObject (CCRuntime)
 
-+ (NSArray *)rt_subclasses
++ (NSArray *)cc_subclasses
 {
     int count = objc_getClassList(NULL, 0);
     Class buffer[count];
@@ -40,22 +40,22 @@
     return array;
 }
 
-+ (CCUnregisteredClass *)rt_createUnregisteredSubclassNamed: (NSString *)name
++ (CCUnregisteredClass *)cc_createUnregisteredSubclassNamed: (NSString *)name
 {
     return [CCUnregisteredClass unregisteredClassWithName: name withSuperclass: self];
 }
 
-+ (Class)rt_createSubclassNamed: (NSString *)name
++ (Class)cc_createSubclassNamed: (NSString *)name
 {
-    return [[self rt_createUnregisteredSubclassNamed: name] registerClass];
+    return [[self cc_createUnregisteredSubclassNamed: name] registerClass];
 }
 
-+ (void)rt_destroyClass
++ (void)cc_destroyClass
 {
     objc_disposeClassPair(self);
 }
 
-+ (BOOL)rt_isMetaClass
++ (BOOL)cc_isMetaClass
 {
     return class_isMetaClass(self);
 }
@@ -64,7 +64,7 @@
 #pragma clang diagnostic push
 #endif
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
-+ (Class)rt_setSuperclass: (Class)newSuperclass
++ (Class)cc_setSuperclass: (Class)newSuperclass
 {
     return class_setSuperclass(self, newSuperclass);
 }
@@ -72,12 +72,12 @@
 #pragma clang diagnostic pop
 #endif
 
-+ (size_t)rt_instanceSize
++ (size_t)cc_instanceSize
 {
     return class_getInstanceSize(self);
 }
 
-+ (NSArray *)rt_protocols
++ (NSArray *)cc_protocols
 {
     unsigned int count;
     __unsafe_unretained Protocol **protocols = class_copyProtocolList(self, &count);
@@ -90,7 +90,7 @@
     return array;
 }
 
-+ (NSArray *)rt_methods
++ (NSArray *)cc_methods
 {
     unsigned int count;
     Method *methods = class_copyMethodList(self, &count);
@@ -103,7 +103,7 @@
     return array;
 }
 
-+ (CCMethod *)rt_methodForSelector: (SEL)sel
++ (CCMethod *)cc_methodForSelector: (SEL)sel
 {
     Method m = class_getInstanceMethod(self, sel);
     if(!m) return nil;
@@ -111,12 +111,12 @@
     return [CCMethod methodWithObjCMethod: m];
 }
 
-+ (void)rt_addMethod: (CCMethod *)method
++ (void)cc_addMethod: (CCMethod *)method
 {
     class_addMethod(self, [method selector], [method implementation], [[method signature] UTF8String]);
 }
 
-+ (NSArray *)rt_ivars
++ (NSArray *)cc_ivars
 {
     unsigned int count;
     Ivar *list = class_copyIvarList(self, &count);
@@ -129,14 +129,14 @@
     return array;
 }
 
-+ (CCIvar *)rt_ivarForName: (NSString *)name
++ (CCIvar *)cc_ivarForName: (NSString *)name
 {
     Ivar ivar = class_getInstanceVariable(self, [name UTF8String]);
     if(!ivar) return nil;
     return [CCIvar ivarWithObjCIvar: ivar];
 }
 
-+ (NSArray *)rt_properties
++ (NSArray *)cc_properties
 {
     unsigned int count;
     objc_property_t *list = class_copyPropertyList(self, &count);
@@ -149,7 +149,7 @@
     return array;
 }
 
-+ (CCProperty *)rt_propertyForName: (NSString *)name
++ (CCProperty *)cc_propertyForName: (NSString *)name
 {
     objc_property_t property = class_getProperty(self, [name UTF8String]);
     if(!property) return nil;
@@ -157,18 +157,18 @@
 }
 
 #if __MAC_OS_X_VERSION_MIN_REQUIRED >= 1070
-+ (BOOL)rt_addProperty: (CCProperty *)property
++ (BOOL)cc_addProperty: (CCProperty *)property
 {
     return [property addToClass:self];
 }
 #endif
 
-- (Class)rt_class
+- (Class)cc_class
 {
     return object_getClass(self);
 }
 
-- (Class)rt_setClass: (Class)newClass
+- (Class)cc_setClass: (Class)newClass
 {
     return object_setClass(self, newClass);
 }

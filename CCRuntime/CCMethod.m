@@ -179,7 +179,7 @@
     for(NSUInteger i = 2; i < argumentCount; i++)
     {
         int cookie = va_arg(args, int);
-        if(cookie != RT_ARG_MAGIC_COOKIE)
+        if(cookie != CC_ARG_MAGIC_COOKIE)
         {
             NSLog(@"%s: incorrect magic cookie %08x; did you forget to use RTARG() around your arguments?", __func__, cookie);
             abort();
@@ -233,7 +233,7 @@
 
 @implementation NSObject (CCMethodSendingAdditions)
 
-- (id)rt_sendMethod: (CCMethod *)method, ...
+- (id)cc_sendMethod: (CCMethod *)method, ...
 {
     NSParameterAssert([[method signature] hasPrefix: [NSString stringWithUTF8String: @encode(id)]]);
     
@@ -247,7 +247,7 @@
     return retVal;
 }
 
-- (void)rt_returnValue: (void *)retPtr sendMethod: (CCMethod *)method, ...
+- (void)cc_returnValue: (void *)retPtr sendMethod: (CCMethod *)method, ...
 {
     va_list args;
     va_start(args, method);
@@ -255,9 +255,9 @@
     va_end(args);
 }
 
-- (id)rt_sendSelector: (SEL)sel, ...
+- (id)cc_sendSelector: (SEL)sel, ...
 {
-    CCMethod *method = [[self rt_class] rt_methodForSelector: sel];
+    CCMethod *method = [[self cc_class] cc_methodForSelector: sel];
     NSParameterAssert([[method signature] hasPrefix: [NSString stringWithUTF8String: @encode(id)]]);
     
     id retVal = nil;
@@ -270,9 +270,9 @@
     return retVal;
 }
 
-- (void)rt_returnValue: (void *)retPtr sendSelector: (SEL)sel, ...
+- (void)cc_returnValue: (void *)retPtr sendSelector: (SEL)sel, ...
 {
-    CCMethod *method = [[self rt_class] rt_methodForSelector: sel];
+    CCMethod *method = [[self cc_class] cc_methodForSelector: sel];
     va_list args;
     va_start(args, sel);
     [method _returnValue: retPtr sendToTarget: self arguments: args];

@@ -33,8 +33,8 @@
 // (you can pass NULL if you don't care about the return value)
 // all arguments MUST BE WRAPPED in RTARG, e.g.:
 // [method sendToTarget: target, RTARG(arg1), RTARG(arg2)]
-#define RT_ARG_MAGIC_COOKIE 0xdeadbeef
-#define RTARG(expr) RT_ARG_MAGIC_COOKIE, @encode(__typeof__(expr)), (__typeof__(expr) []){ expr }
+#define CC_ARG_MAGIC_COOKIE 0xdeadbeef
+#define RTARG(expr) CC_ARG_MAGIC_COOKIE, @encode(__typeof__(expr)), (__typeof__(expr) []){ expr }
 - (id)sendToTarget: (id)target, ...;
 - (void)returnValue: (void *)retPtr sendToTarget: (id)target, ...;
 
@@ -42,10 +42,10 @@
 
 @interface NSObject (CCMethodSendingAdditions)
 
-- (id)rt_sendMethod: (CCMethod *)method, ...;
-- (void)rt_returnValue: (void *)retPtr sendMethod: (CCMethod *)method, ...;
+- (id)cc_sendMethod: (CCMethod *)method, ...;
+- (void)cc_returnValue: (void *)retPtr sendMethod: (CCMethod *)method, ...;
 
-- (id)rt_sendSelector: (SEL)sel, ...;
-- (void)rt_returnValue: (void *)retPtr sendSelector: (SEL)sel, ...;
+- (id)cc_sendSelector: (SEL)sel, ...;
+- (void)cc_returnValue: (void *)retPtr sendSelector: (SEL)sel, ...;
 
 @end

@@ -27,37 +27,37 @@
 @interface NSObject (CCRuntime)
 
 // includes the receiver
-+ (NSArray *)rt_subclasses;
++ (NSArray *)cc_subclasses;
 
-+ (CCUnregisteredClass *)rt_createUnregisteredSubclassNamed: (NSString *)name;
-+ (Class)rt_createSubclassNamed: (NSString *)name;
-+ (void)rt_destroyClass;
++ (CCUnregisteredClass *)cc_createUnregisteredSubclassNamed: (NSString *)name;
++ (Class)cc_createSubclassNamed: (NSString *)name;
++ (void)cc_destroyClass;
 
-+ (BOOL)rt_isMetaClass;
-+ (Class)rt_setSuperclass: (Class)newSuperclass;
-+ (size_t)rt_instanceSize;
++ (BOOL)cc_isMetaClass;
++ (Class)cc_setSuperclass: (Class)newSuperclass;
++ (size_t)cc_instanceSize;
 
-+ (NSArray *)rt_protocols;
++ (NSArray *)cc_protocols;
 
-+ (NSArray *)rt_methods;
-+ (CCMethod *)rt_methodForSelector: (SEL)sel;
++ (NSArray *)cc_methods;
++ (CCMethod *)cc_methodForSelector: (SEL)sel;
 
-+ (void)rt_addMethod: (CCMethod *)method;
++ (void)cc_addMethod: (CCMethod *)method;
 
-+ (NSArray *)rt_ivars;
-+ (CCIvar *)rt_ivarForName: (NSString *)name;
++ (NSArray *)cc_ivars;
++ (CCIvar *)cc_ivarForName: (NSString *)name;
 
-+ (NSArray *)rt_properties;
-+ (CCProperty *)rt_propertyForName: (NSString *)name;
++ (NSArray *)cc_properties;
++ (CCProperty *)cc_propertyForName: (NSString *)name;
 #if __MAC_OS_X_VERSION_MIN_REQUIRED >= 1070
-+ (BOOL)rt_addProperty: (CCProperty *)property;
++ (BOOL)cc_addProperty: (CCProperty *)property;
 #endif
 
 // Apple likes to fiddle with -class to hide their dynamic subclasses
 // e.g. KVO subclasses, so [obj class] can lie to you
-// rt_class is a direct call to object_getClass (which in turn
+// cc_class is a direct call to object_getClass (which in turn
 // directly hits up the isa) so it will always tell the truth
-- (Class)rt_class;
-- (Class)rt_setClass: (Class)newClass;
+- (Class)cc_class;
+- (Class)cc_setClass: (Class)newClass;
 
 @end
