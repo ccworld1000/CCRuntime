@@ -82,10 +82,10 @@
     protocol_isEqual([self objCProtocol], [other objCProtocol]);
 }
 
-- (NSUInteger)hash
-{
-    return [[self objCProtocol] hash];
-}
+//- (NSUInteger)hash
+//{
+//    return [[self objCProtocol] hash];
+//}
 
 - (Protocol *)objCProtocol
 {

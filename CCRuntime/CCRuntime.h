@@ -14,9 +14,9 @@
 #import "CCProtocol.h"
 #import "CCUnregisteredClass.h"
 
-//@interface CCRuntime : NSObject
-//
-//@end
+@interface CCRuntime : NSObject
+
+@end
 
 @class CCProtocol;
 @class CCIvar;

@@ -9,9 +9,9 @@
 #import "CCRuntime.h"
 #import <objc/runtime.h>
 
-//@implementation CCRuntime
-//
-//@end
+@implementation CCRuntime
+
+@end
 
 @implementation NSObject (CCRuntime)
 

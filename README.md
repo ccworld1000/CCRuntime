@@ -41,7 +41,7 @@ You can add new methods using `+cc_addMethod:`. You can modify the implementatio
         return @"HELLO WORLD!";
     }
     
-    Method *description = [NSObject cc_methodForSelector: @selector(description)];
+    CCMethod *description = [NSObject cc_methodForSelector: @selector(description)];
     [description setImplementation: (IMP)NewDescription];
 
 You can create new classes using `+cc_createSubclassNamed:` or `+cc_createUnregisteredSubclassNamed:`. Note that if you want to add instance variables to a class then you have to use the Unregistered version, and add them before registering the class.
@@ -86,3 +86,43 @@ Finally, there are a pair of convenience methods that take a selector, and combi
     SomeType ret2;
     [obj cc_returnValue: &ret2 sendSelector: @selector(...), CCARG(12345)];
 
+### BSD
+***
+
+BSD 3-Clause License
+
+Copyright (c) 2018-now ccworld1000 | bug : <a href="mailto:2291108617@qq.com">2291108617@qq.com</a> and <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+***
+### Other LICENSE
+***
+
+[MAObjCRuntime LICENSE](LICENSE.MAObjCRuntime.txt) 
