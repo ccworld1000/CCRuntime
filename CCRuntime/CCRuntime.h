@@ -8,11 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-#import "CCIvar.h"
-#import "CCProperty.h"
-#import "CCMethod.h"
-#import "CCProtocol.h"
-#import "CCUnregisteredClass.h"
+#import <CCRuntime/CCIvar.h>
+
+#import <CCRuntime/CCProperty.h>
+#import <CCRuntime/CCMethod.h>
+#import <CCRuntime/CCProtocol.h>
+#import <CCRuntime/CCUnregisteredClass.h>
 
 @interface CCRuntime : NSObject
 

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CCRuntime.h"
+#import <CCRuntime/CCRuntime.h>
 
 static NSString *NewDescription (id self, SEL _cmd) {
     return @"CC Test";
