@@ -54,7 +54,7 @@ static NSString *NewDescription (id self, SEL _cmd) {
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+    [self classQuerying];
     [self methodModifying];
 }
 

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C7F19E5BB3C793F612A80D814FD7B83"
-               BlueprintName = "CCRuntime"
+               BlueprintIdentifier = "F9F2CCA66591771C28168F6736C210A7"
+               BlueprintName = "CCRuntime-macOS"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libCCRuntime.a">
+               BuildableName = "libCCRuntime-macOS.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
