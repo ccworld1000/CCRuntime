@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003AB51220C79E80003C69F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003AB51120C79E80003C69F6 /* AppDelegate.m */; };
+		003AB51520C79E80003C69F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003AB51420C79E80003C69F6 /* ViewController.m */; };
+		003AB51720C79E81003C69F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003AB51620C79E81003C69F6 /* Assets.xcassets */; };
+		003AB51A20C79E81003C69F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003AB51820C79E81003C69F6 /* Main.storyboard */; };
+		003AB51D20C79E81003C69F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 003AB51C20C79E81003C69F6 /* main.m */; };
 		0082B16020BE612F007A86E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082B15F20BE612F007A86E6 /* AppDelegate.m */; };
 		0082B16320BE612F007A86E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082B16220BE612F007A86E6 /* ViewController.m */; };
 		0082B16620BE612F007A86E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0082B16420BE612F007A86E6 /* Main.storyboard */; };
@@ -17,6 +22,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		003AB50E20C79E80003C69F6 /* CCRuntimeOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRuntimeOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		003AB51020C79E80003C69F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		003AB51120C79E80003C69F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		003AB51320C79E80003C69F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		003AB51420C79E80003C69F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		003AB51620C79E81003C69F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		003AB51920C79E81003C69F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		003AB51B20C79E81003C69F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003AB51C20C79E81003C69F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		003AB51E20C79E81003C69F6 /* CCRuntimeOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CCRuntimeOSX.entitlements; sourceTree = "<group>"; };
 		0082B15B20BE612F007A86E6 /* CCRuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0082B15E20BE612F007A86E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0082B15F20BE612F007A86E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,6 +48,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		003AB50B20C79E80003C69F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0082B15820BE612F007A86E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,10 +66,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		003AB50F20C79E80003C69F6 /* CCRuntimeOSX */ = {
+			isa = PBXGroup;
+			children = (
+				003AB51020C79E80003C69F6 /* AppDelegate.h */,
+				003AB51120C79E80003C69F6 /* AppDelegate.m */,
+				003AB51320C79E80003C69F6 /* ViewController.h */,
+				003AB51420C79E80003C69F6 /* ViewController.m */,
+				003AB51620C79E81003C69F6 /* Assets.xcassets */,
+				003AB51820C79E81003C69F6 /* Main.storyboard */,
+				003AB51B20C79E81003C69F6 /* Info.plist */,
+				003AB51C20C79E81003C69F6 /* main.m */,
+				003AB51E20C79E81003C69F6 /* CCRuntimeOSX.entitlements */,
+			);
+			path = CCRuntimeOSX;
+			sourceTree = "<group>";
+		};
 		0082B15220BE612F007A86E6 = {
 			isa = PBXGroup;
 			children = (
 				0082B15D20BE612F007A86E6 /* CCRuntimeDemo */,
+				003AB50F20C79E80003C69F6 /* CCRuntimeOSX */,
 				0082B15C20BE612F007A86E6 /* Products */,
 				A7E208BAE8CC957D8F2DA318 /* Pods */,
 				01092F4D6B78D8620FEF7204 /* Frameworks */,
@@ -58,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				0082B15B20BE612F007A86E6 /* CCRuntimeDemo.app */,
+				003AB50E20C79E80003C69F6 /* CCRuntimeOSX.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +138,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		003AB50D20C79E80003C69F6 /* CCRuntimeOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003AB52120C79E81003C69F6 /* Build configuration list for PBXNativeTarget "CCRuntimeOSX" */;
+			buildPhases = (
+				003AB50A20C79E80003C69F6 /* Sources */,
+				003AB50B20C79E80003C69F6 /* Frameworks */,
+				003AB50C20C79E80003C69F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCRuntimeOSX;
+			productName = CCRuntimeOSX;
+			productReference = 003AB50E20C79E80003C69F6 /* CCRuntimeOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0082B15A20BE612F007A86E6 /* CCRuntimeDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0082B17120BE6130007A86E6 /* Build configuration list for PBXNativeTarget "CCRuntimeDemo" */;
@@ -126,6 +183,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "cc | ccworld1000@gmail.com";
 				TargetAttributes = {
+					003AB50D20C79E80003C69F6 = {
+						CreatedOnToolsVersion = 9.4;
+					};
 					0082B15A20BE612F007A86E6 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -145,11 +205,21 @@
 			projectRoot = "";
 			targets = (
 				0082B15A20BE612F007A86E6 /* CCRuntimeDemo */,
+				003AB50D20C79E80003C69F6 /* CCRuntimeOSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		003AB50C20C79E80003C69F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003AB51720C79E81003C69F6 /* Assets.xcassets in Resources */,
+				003AB51A20C79E81003C69F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0082B15920BE612F007A86E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,6 +254,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		003AB50A20C79E80003C69F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003AB51520C79E80003C69F6 /* ViewController.m in Sources */,
+				003AB51D20C79E81003C69F6 /* main.m in Sources */,
+				003AB51220C79E80003C69F6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0082B15720BE612F007A86E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -197,6 +277,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		003AB51820C79E81003C69F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003AB51920C79E81003C69F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		0082B16420BE612F007A86E6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,6 +304,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		003AB51F20C79E81003C69F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CCRuntimeOSX/CCRuntimeOSX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CCRuntimeOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		003AB52020C79E81003C69F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CCRuntimeOSX/CCRuntimeOSX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CCRuntimeOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		0082B16F20BE6130007A86E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -363,6 +491,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		003AB52120C79E81003C69F6 /* Build configuration list for PBXNativeTarget "CCRuntimeOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003AB51F20C79E81003C69F6 /* Debug */,
+				003AB52020C79E81003C69F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0082B15620BE612F007A86E6 /* Build configuration list for PBXProject "CCRuntimeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

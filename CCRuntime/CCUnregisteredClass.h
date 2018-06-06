@@ -8,10 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-//@interface CCUnregisteredClass : NSObject
-//
-//@end
-
 @class CCProtocol;
 @class CCIvar;
 @class CCMethod;

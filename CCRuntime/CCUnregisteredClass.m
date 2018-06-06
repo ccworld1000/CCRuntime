@@ -7,11 +7,6 @@
 //
 
 #import "CCUnregisteredClass.h"
-
-//@implementation CCUnregisteredClass
-//
-//@end
-
 #import "CCProtocol.h"
 #import "CCIvar.h"
 #import "CCMethod.h"
