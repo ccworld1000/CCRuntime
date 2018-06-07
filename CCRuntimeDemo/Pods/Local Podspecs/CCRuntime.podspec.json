@@ -1,6 +1,6 @@
 {
   "name": "CCRuntime",
-  "version": "0.0.1",
+  "version": "1.1.2",
   "summary": "CCRuntime is an ObjC wrapper around the Objective-C runtime APIs.",
   "description": "CCRuntime is an ObjC wrapper around the Objective-C runtime APIs,\nCCRuntime convert MAObjCRuntime for ARC.",
   "homepage": "https://github.com/ccworld1000/CCRuntime",
@@ -15,7 +15,7 @@
   },
   "source": {
     "git": "https://github.com/ccworld1000/CCRuntime.git",
-    "tag": "0.0.1"
+    "tag": "1.1.2"
   },
   "source_files": [
     "CCRuntime",
@@ -23,5 +23,6 @@
   ],
   "exclude_files": "Classes/Exclude",
   "public_header_files": "CCRuntime/**/*.h",
+  "resources": "LICENSE*",
   "requires_arc": true
 }
