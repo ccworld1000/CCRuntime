@@ -79,7 +79,7 @@ NSString * const CCPropertyWeakReferenceAttribute                 = @"W";
         attrIdx++;
     }
     
-    unsigned int attributeCount = [attrs count];
+    unsigned int attributeCount = (unsigned int)[attrs count];
     BOOL result = class_addProperty(classToAddTo,
                                     [[self name] UTF8String],
                                     cattrs,

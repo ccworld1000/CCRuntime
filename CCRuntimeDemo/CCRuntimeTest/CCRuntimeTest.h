@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CCRuntime/CCRuntime.h>
 
 @interface CCRuntimeTest : NSObject
+
++ (void) classQuerying;
 
 @end

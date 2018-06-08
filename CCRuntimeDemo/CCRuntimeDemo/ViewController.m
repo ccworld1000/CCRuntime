@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <CCRuntime/CCRuntime.h>
+#import "CCRuntimeTest.h"
 
 static NSString *NewDescription (id self, SEL _cmd) {
     return @"CC Test";
@@ -19,27 +19,6 @@ static NSString *NewDescription (id self, SEL _cmd) {
 
 @implementation ViewController
 
-- (void) classQuerying {
-    NSLog(@"////////////////////////////////////////////\n\n");
-    
-    NSArray *subclasses = [[self class] cc_subclasses];
-    NSLog(@"subclasses : %@", subclasses);
-    
-    NSLog(@"////////////////////////////////////////////\n\n");
-    
-    NSArray *methods = [NSString cc_methods];
-    for (CCMethod *method in methods) {
-        NSLog(@"%@", method);
-    }
-    
-    NSLog(@"////////////////////////////////////////////\n\n");
-    
-    NSLog(@"%@", [NSString cc_ivars]);
-    
-    NSLog(@"////////////////////////////////////////////\n\n");
-    
-    NSLog(@"%ld", (long)[[@"foo" cc_class] cc_instanceSize]);
-}
 
 - (void) methodModifying {
     NSLog(@"////////////////////////////////////////////\n\n");
@@ -54,7 +33,8 @@ static NSString *NewDescription (id self, SEL _cmd) {
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self classQuerying];
+    
+    [CCRuntimeTest classQuerying];
     [self methodModifying];
 }
 
