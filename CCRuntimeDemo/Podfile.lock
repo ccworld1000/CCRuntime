@@ -1,5 +1,5 @@
 PODS:
-  - CCRuntime (1.2.0)
+  - CCRuntime (2.0.1)
 
 DEPENDENCIES:
   - CCRuntime (from `..`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  CCRuntime: e199aeb9e4d75083307b9ca638ef968ebbf7f4f1
+  CCRuntime: d53a81a4e9ff74c471c0b27ddc53ce1e3cbb49bc
 
-PODFILE CHECKSUM: fa010fe979f187beb814847730e5471c8a594955
+PODFILE CHECKSUM: c08e744f39f5de17ec1d25b19dba08a9d4298af6
 
 COCOAPODS: 1.5.2

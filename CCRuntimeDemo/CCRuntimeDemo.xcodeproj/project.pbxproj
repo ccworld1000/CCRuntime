@@ -24,12 +24,16 @@
 		0007749A20CAACF000F513AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007749920CAACF000F513AC /* ViewController.swift */; };
 		0007749C20CAACF100F513AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0007749B20CAACF100F513AC /* Assets.xcassets */; };
 		0007749F20CAACF100F513AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0007749D20CAACF100F513AC /* Main.storyboard */; };
+		000774A520CAB11800F513AC /* CCRuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0007741D20CA86A000F513AC /* CCRuntimeTest.m */; };
 		0082B16020BE612F007A86E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082B15F20BE612F007A86E6 /* AppDelegate.m */; };
 		0082B16320BE612F007A86E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082B16220BE612F007A86E6 /* ViewController.m */; };
 		0082B16620BE612F007A86E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0082B16420BE612F007A86E6 /* Main.storyboard */; };
 		0082B16820BE6130007A86E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0082B16720BE6130007A86E6 /* Assets.xcassets */; };
 		0082B16B20BE6130007A86E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0082B16920BE6130007A86E6 /* LaunchScreen.storyboard */; };
 		0082B16E20BE6130007A86E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082B16D20BE6130007A86E6 /* main.m */; };
+		66FEFBD4B98272A36BF1D559 /* libPods-CCRuntimeOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB00B54F73BAE29D110BFABD /* libPods-CCRuntimeOSX.a */; };
+		C06D733C275569065AFBB0D1 /* libPods-CCRuntimeSwiftiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DDA3C5179B973CC5516FAC /* libPods-CCRuntimeSwiftiOS.a */; };
+		D551F6DC5A159B996A2DCDC2 /* libPods-CCRuntimeSwiftOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A5BBE9960B6DA5CF8CFAFC /* libPods-CCRuntimeSwiftOSX.a */; };
 		E85DCB576291A3848781761E /* libPods-CCRuntimeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B8DBF5AD451C09DCA12765 /* libPods-CCRuntimeDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +64,8 @@
 		0007749E20CAACF100F513AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		000774A020CAACF100F513AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		000774A120CAACF100F513AC /* CCRuntimeSwiftOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CCRuntimeSwiftOSX.entitlements; sourceTree = "<group>"; };
+		000774AF20CAB6CC00F513AC /* CCRuntimeSwiftiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCRuntimeSwiftiOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		000774B020CAB75200F513AC /* CCRuntimeSwiftOSX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCRuntimeSwiftOSX-Bridging-Header.h"; sourceTree = "<group>"; };
 		0082B15B20BE612F007A86E6 /* CCRuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0082B15E20BE612F007A86E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0082B15F20BE612F007A86E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,11 +77,17 @@
 		0082B16C20BE6130007A86E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0082B16D20BE6130007A86E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3036DEF9DFADE884AC7ECDB5 /* Pods-CCRuntimeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRuntimeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCRuntimeDemo/Pods-CCRuntimeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		35519B67314E58F119184E4B /* Pods-CCRuntimeSwiftOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRuntimeSwiftOSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCRuntimeSwiftOSX/Pods-CCRuntimeSwiftOSX.release.xcconfig"; sourceTree = "<group>"; };
 		43046489B9D73352BA2C6613 /* Pods-CCRuntimeOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRuntimeOSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCRuntimeOSX/Pods-CCRuntimeOSX.release.xcconfig"; sourceTree = "<group>"; };
 		5132F37C8521420F6AF2A0AF /* Pods-CCRuntimeOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRuntimeOSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCRuntimeOSX/Pods-CCRuntimeOSX.debug.xcconfig"; sourceTree = "<group>"; };
+		90DDA3C5179B973CC5516FAC /* libPods-CCRuntimeSwiftiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCRuntimeSwiftiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB00B54F73BAE29D110BFABD /* libPods-CCRuntimeOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCRuntimeOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E5780457B3D17BE6DFBB1B /* Pods-CCRuntimeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRuntimeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCRuntimeDemo/Pods-CCRuntimeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B9A5BBE9960B6DA5CF8CFAFC /* libPods-CCRuntimeSwiftOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCRuntimeSwiftOSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5B40E4C1B9FD900D3DBF76 /* Pods-CCRuntimeSwiftOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRuntimeSwiftOSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCRuntimeSwiftOSX/Pods-CCRuntimeSwiftOSX.debug.xcconfig"; sourceTree = "<group>"; };
+		C51C0DD8DD649E8714ED4F30 /* Pods-CCRuntimeSwiftiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRuntimeSwiftiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCRuntimeSwiftiOS/Pods-CCRuntimeSwiftiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D2B8DBF5AD451C09DCA12765 /* libPods-CCRuntimeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCRuntimeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8DB40D76A7AC519181A3D8 /* Pods-CCRuntimeSwiftiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCRuntimeSwiftiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCRuntimeSwiftiOS/Pods-CCRuntimeSwiftiOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06D733C275569065AFBB0D1 /* libPods-CCRuntimeSwiftiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FEFBD4B98272A36BF1D559 /* libPods-CCRuntimeOSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D551F6DC5A159B996A2DCDC2 /* libPods-CCRuntimeSwiftOSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +144,7 @@
 				0007744520CA89C300F513AC /* Assets.xcassets */,
 				0007744720CA89C300F513AC /* LaunchScreen.storyboard */,
 				0007744A20CA89C300F513AC /* Info.plist */,
+				000774AF20CAB6CC00F513AC /* CCRuntimeSwiftiOS-Bridging-Header.h */,
 			);
 			path = CCRuntimeSwiftiOS;
 			sourceTree = "<group>";
@@ -158,6 +174,7 @@
 				0007749D20CAACF100F513AC /* Main.storyboard */,
 				000774A020CAACF100F513AC /* Info.plist */,
 				000774A120CAACF100F513AC /* CCRuntimeSwiftOSX.entitlements */,
+				000774B020CAB75200F513AC /* CCRuntimeSwiftOSX-Bridging-Header.h */,
 			);
 			path = CCRuntimeSwiftOSX;
 			sourceTree = "<group>";
@@ -208,6 +225,8 @@
 			children = (
 				D2B8DBF5AD451C09DCA12765 /* libPods-CCRuntimeDemo.a */,
 				AB00B54F73BAE29D110BFABD /* libPods-CCRuntimeOSX.a */,
+				B9A5BBE9960B6DA5CF8CFAFC /* libPods-CCRuntimeSwiftOSX.a */,
+				90DDA3C5179B973CC5516FAC /* libPods-CCRuntimeSwiftiOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,6 +238,10 @@
 				3036DEF9DFADE884AC7ECDB5 /* Pods-CCRuntimeDemo.release.xcconfig */,
 				5132F37C8521420F6AF2A0AF /* Pods-CCRuntimeOSX.debug.xcconfig */,
 				43046489B9D73352BA2C6613 /* Pods-CCRuntimeOSX.release.xcconfig */,
+				BD5B40E4C1B9FD900D3DBF76 /* Pods-CCRuntimeSwiftOSX.debug.xcconfig */,
+				35519B67314E58F119184E4B /* Pods-CCRuntimeSwiftOSX.release.xcconfig */,
+				C51C0DD8DD649E8714ED4F30 /* Pods-CCRuntimeSwiftiOS.debug.xcconfig */,
+				DA8DB40D76A7AC519181A3D8 /* Pods-CCRuntimeSwiftiOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -230,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0007744B20CA89C300F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeSwiftiOS" */;
 			buildPhases = (
+				F10B5E306A99D7F8BE38915B /* [CP] Check Pods Manifest.lock */,
 				0007743820CA89C200F513AC /* Sources */,
 				0007743920CA89C200F513AC /* Frameworks */,
 				0007743A20CA89C200F513AC /* Resources */,
+				1E55B00609866D2BF3DF8749 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0007748B20CA8BDC00F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeOSX" */;
 			buildPhases = (
+				F04761C95A0CE62ED9B23543 /* [CP] Check Pods Manifest.lock */,
 				0007747620CA8BDB00F513AC /* Sources */,
 				0007747720CA8BDB00F513AC /* Frameworks */,
 				0007747820CA8BDB00F513AC /* Resources */,
+				C7BED7CF7038E0E9272008AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 000774A220CAACF100F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeSwiftOSX" */;
 			buildPhases = (
+				2FF9774BA59C1B87518DACCC /* [CP] Check Pods Manifest.lock */,
 				0007749120CAACF000F513AC /* Sources */,
 				0007749220CAACF000F513AC /* Frameworks */,
 				0007749320CAACF000F513AC /* Resources */,
+				57F7C9AFCE683DBE1E3A9EFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -384,6 +413,84 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1E55B00609866D2BF3DF8749 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeSwiftiOS/Pods-CCRuntimeSwiftiOS-resources.sh",
+				"${PODS_ROOT}/../../LICENSE.MAObjCRuntime.txt",
+				"${PODS_ROOT}/../../LICENSE.txt",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.MAObjCRuntime.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeSwiftiOS/Pods-CCRuntimeSwiftiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FF9774BA59C1B87518DACCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCRuntimeSwiftOSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57F7C9AFCE683DBE1E3A9EFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeSwiftOSX/Pods-CCRuntimeSwiftOSX-resources.sh",
+				"${PODS_ROOT}/../../LICENSE.MAObjCRuntime.txt",
+				"${PODS_ROOT}/../../LICENSE.txt",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.MAObjCRuntime.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeSwiftOSX/Pods-CCRuntimeSwiftOSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BED7CF7038E0E9272008AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeOSX/Pods-CCRuntimeOSX-resources.sh",
+				"${PODS_ROOT}/../../LICENSE.MAObjCRuntime.txt",
+				"${PODS_ROOT}/../../LICENSE.txt",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.MAObjCRuntime.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeOSX/Pods-CCRuntimeOSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E22CC92FD83BE1616DFD5260 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,6 +503,42 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CCRuntimeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04761C95A0CE62ED9B23543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCRuntimeOSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F10B5E306A99D7F8BE38915B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCRuntimeSwiftiOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -451,6 +594,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0007749A20CAACF000F513AC /* ViewController.swift in Sources */,
+				000774A520CAB11800F513AC /* CCRuntimeTest.m in Sources */,
 				0007749820CAACF000F513AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +666,7 @@
 /* Begin XCBuildConfiguration section */
 		0007744C20CA89C300F513AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51C0DD8DD649E8714ED4F30 /* Pods-CCRuntimeSwiftiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +679,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeSwiftiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CCRuntimeSwiftiOS/CCRuntimeSwiftiOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -542,6 +688,7 @@
 		};
 		0007744D20CA89C300F513AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8DB40D76A7AC519181A3D8 /* Pods-CCRuntimeSwiftiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +701,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeSwiftiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CCRuntimeSwiftiOS/CCRuntimeSwiftiOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -562,6 +710,7 @@
 		};
 		0007748C20CA8BDC00F513AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5132F37C8521420F6AF2A0AF /* Pods-CCRuntimeOSX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CCRuntimeOSX/CCRuntimeOSX.entitlements;
@@ -582,6 +731,7 @@
 		};
 		0007748D20CA8BDC00F513AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43046489B9D73352BA2C6613 /* Pods-CCRuntimeOSX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CCRuntimeOSX/CCRuntimeOSX.entitlements;
@@ -602,6 +752,7 @@
 		};
 		000774A320CAACF100F513AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5B40E4C1B9FD900D3DBF76 /* Pods-CCRuntimeSwiftOSX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CCRuntimeSwiftOSX/CCRuntimeSwiftOSX.entitlements;
@@ -618,6 +769,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CCRuntimeSwiftOSX/CCRuntimeSwiftOSX-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
@@ -625,6 +777,7 @@
 		};
 		000774A420CAACF100F513AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35519B67314E58F119184E4B /* Pods-CCRuntimeSwiftOSX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CCRuntimeSwiftOSX/CCRuntimeSwiftOSX.entitlements;
@@ -641,6 +794,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/CCRuntimeSwiftOSX/CCRuntimeSwiftOSX-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 			};

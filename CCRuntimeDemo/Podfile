@@ -1,27 +1,31 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-#target 'CCRuntimeDemo' do
-#
-#    pod 'CCRuntime'
-#
-#end
-#
-#target 'CCRuntimeOSX' do
-#
-#    pod 'CCRuntime'
-#
-#end
-
-
+##################################################
 target 'CCRuntimeDemo' do
     
-    pod 'CCRuntime',path:".."
+    pod 'CCRuntime'
     
 end
 
 target 'CCRuntimeOSX' do
     
-    pod 'CCRuntime',path:".."
+    pod 'CCRuntime'
     
 end
+
+target 'CCRuntimeSwiftiOS' do
+    
+    pod 'CCRuntime'
+    
+end
+
+target 'CCRuntimeSwiftOSX' do
+    
+    pod 'CCRuntime'
+    
+end
+
+
+##################################################
+

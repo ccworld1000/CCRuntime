@@ -10,7 +10,7 @@
 #import "CCRuntimeTest.h"
 
 static NSString *NewDescription (id self, SEL _cmd) {
-    return @"CC Test";
+    return @"CC Test for iOS";
 }
 
 @interface ViewController ()
