@@ -62,12 +62,6 @@
     return self;
 }
 
-- (void)dealloc
-{
-    _name = nil;
-    _typeEncoding = nil;
-}
-
 - (NSString *)name
 {
     return _name;

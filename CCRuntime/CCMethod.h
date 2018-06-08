@@ -31,10 +31,10 @@
 // for simple cases where the return type is an id, use sendToTarget:
 // for others, use the returnValue: variant and pass a pointer to storage
 // (you can pass NULL if you don't care about the return value)
-// all arguments MUST BE WRAPPED in RTARG, e.g.:
-// [method sendToTarget: target, RTARG(arg1), RTARG(arg2)]
+// all arguments MUST BE WRAPPED in CCARG, e.g.:
+// [method sendToTarget: target, CCARG(arg1), CCARG(arg2)]
 #define CC_ARG_MAGIC_COOKIE 0xdeadbeef
-#define RTARG(expr) CC_ARG_MAGIC_COOKIE, @encode(__typeof__(expr)), (__typeof__(expr) []){ expr }
+#define CCARG(expr) CC_ARG_MAGIC_COOKIE, @encode(__typeof__(expr)), (__typeof__(expr) []){ expr }
 - (id)sendToTarget: (id)target, ...;
 - (void)returnValue: (void *)retPtr sendToTarget: (id)target, ...;
 

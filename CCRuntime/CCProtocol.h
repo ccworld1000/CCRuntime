@@ -11,8 +11,6 @@
 
 
 @interface CCProtocol : NSObject
-{
-}
 
 + (NSArray *)allProtocols;
 

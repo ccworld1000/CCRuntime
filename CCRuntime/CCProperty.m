@@ -54,12 +54,6 @@ NSString * const CCPropertyWeakReferenceAttribute                 = @"W";
     return self;
 }
 
-- (void)dealloc
-{
-    _attrs = nil;;
-    _name = nil;
-}
-
 - (NSString *)name
 {
     if (_property)

@@ -73,11 +73,6 @@
     return self;
 }
 
-- (void)dealloc
-{
-    _sig = nil;
-}
-
 - (SEL)selector
 {
     return _sel;
@@ -181,7 +176,7 @@
         int cookie = va_arg(args, int);
         if(cookie != CC_ARG_MAGIC_COOKIE)
         {
-            NSLog(@"%s: incorrect magic cookie %08x; did you forget to use RTARG() around your arguments?", __func__, cookie);
+            NSLog(@"%s: incorrect magic cookie %08x; did you forget to use CCARG() around your arguments?", __func__, cookie);
             abort();
         }
         const char *typeStr = va_arg(args, char *);
