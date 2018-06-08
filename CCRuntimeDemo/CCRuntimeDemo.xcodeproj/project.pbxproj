@@ -18,6 +18,12 @@
 		0007748320CA8BDC00F513AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0007748220CA8BDC00F513AC /* Assets.xcassets */; };
 		0007748620CA8BDC00F513AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0007748420CA8BDC00F513AC /* Main.storyboard */; };
 		0007748920CA8BDC00F513AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0007748820CA8BDC00F513AC /* main.m */; };
+		0007748E20CAAC6900F513AC /* CCRuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0007741D20CA86A000F513AC /* CCRuntimeTest.m */; };
+		0007748F20CAAC6A00F513AC /* CCRuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0007741D20CA86A000F513AC /* CCRuntimeTest.m */; };
+		0007749820CAACF000F513AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007749720CAACF000F513AC /* AppDelegate.swift */; };
+		0007749A20CAACF000F513AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007749920CAACF000F513AC /* ViewController.swift */; };
+		0007749C20CAACF100F513AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0007749B20CAACF100F513AC /* Assets.xcassets */; };
+		0007749F20CAACF100F513AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0007749D20CAACF100F513AC /* Main.storyboard */; };
 		0082B16020BE612F007A86E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082B15F20BE612F007A86E6 /* AppDelegate.m */; };
 		0082B16320BE612F007A86E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082B16220BE612F007A86E6 /* ViewController.m */; };
 		0082B16620BE612F007A86E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0082B16420BE612F007A86E6 /* Main.storyboard */; };
@@ -37,13 +43,6 @@
 		0007744520CA89C300F513AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0007744820CA89C300F513AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0007744A20CA89C300F513AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0007745420CA89F800F513AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0007745620CA89F800F513AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0007745820CA89F900F513AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0007745B20CA89F900F513AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0007745D20CA89F900F513AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0007745E20CA89F900F513AC /* CCRuntimeSwiftOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CCRuntimeSwiftOSX.entitlements; sourceTree = "<group>"; };
-		0007746620CA8A2900F513AC /* CCRuntimeSwiftOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRuntimeSwiftOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0007747A20CA8BDB00F513AC /* CCRuntimeOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRuntimeOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0007747C20CA8BDB00F513AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0007747D20CA8BDB00F513AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +53,13 @@
 		0007748720CA8BDC00F513AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0007748820CA8BDC00F513AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0007748A20CA8BDC00F513AC /* CCRuntimeOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CCRuntimeOSX.entitlements; sourceTree = "<group>"; };
+		0007749520CAACF000F513AC /* CCRuntimeSwiftOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRuntimeSwiftOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0007749720CAACF000F513AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0007749920CAACF000F513AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0007749B20CAACF100F513AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0007749E20CAACF100F513AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		000774A020CAACF100F513AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000774A120CAACF100F513AC /* CCRuntimeSwiftOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CCRuntimeSwiftOSX.entitlements; sourceTree = "<group>"; };
 		0082B15B20BE612F007A86E6 /* CCRuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0082B15E20BE612F007A86E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0082B15F20BE612F007A86E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,14 +86,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0007746320CA8A2900F513AC /* Frameworks */ = {
+		0007747720CA8BDB00F513AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0007747720CA8BDB00F513AC /* Frameworks */ = {
+		0007749220CAACF000F513AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,19 +133,6 @@
 			path = CCRuntimeSwiftiOS;
 			sourceTree = "<group>";
 		};
-		0007745320CA89F800F513AC /* CCRuntimeSwiftOSX */ = {
-			isa = PBXGroup;
-			children = (
-				0007745420CA89F800F513AC /* AppDelegate.swift */,
-				0007745620CA89F800F513AC /* ViewController.swift */,
-				0007745820CA89F900F513AC /* Assets.xcassets */,
-				0007745A20CA89F900F513AC /* Main.storyboard */,
-				0007745D20CA89F900F513AC /* Info.plist */,
-				0007745E20CA89F900F513AC /* CCRuntimeSwiftOSX.entitlements */,
-			);
-			path = CCRuntimeSwiftOSX;
-			sourceTree = "<group>";
-		};
 		0007747B20CA8BDB00F513AC /* CCRuntimeOSX */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,14 +149,27 @@
 			path = CCRuntimeOSX;
 			sourceTree = "<group>";
 		};
+		0007749620CAACF000F513AC /* CCRuntimeSwiftOSX */ = {
+			isa = PBXGroup;
+			children = (
+				0007749720CAACF000F513AC /* AppDelegate.swift */,
+				0007749920CAACF000F513AC /* ViewController.swift */,
+				0007749B20CAACF100F513AC /* Assets.xcassets */,
+				0007749D20CAACF100F513AC /* Main.storyboard */,
+				000774A020CAACF100F513AC /* Info.plist */,
+				000774A120CAACF100F513AC /* CCRuntimeSwiftOSX.entitlements */,
+			);
+			path = CCRuntimeSwiftOSX;
+			sourceTree = "<group>";
+		};
 		0082B15220BE612F007A86E6 = {
 			isa = PBXGroup;
 			children = (
 				0007741B20CA868000F513AC /* CCRuntimeTest */,
 				0082B15D20BE612F007A86E6 /* CCRuntimeDemo */,
-				0007743D20CA89C200F513AC /* CCRuntimeSwiftiOS */,
-				0007745320CA89F800F513AC /* CCRuntimeSwiftOSX */,
 				0007747B20CA8BDB00F513AC /* CCRuntimeOSX */,
+				0007743D20CA89C200F513AC /* CCRuntimeSwiftiOS */,
+				0007749620CAACF000F513AC /* CCRuntimeSwiftOSX */,
 				0082B15C20BE612F007A86E6 /* Products */,
 				A7E208BAE8CC957D8F2DA318 /* Pods */,
 				01092F4D6B78D8620FEF7204 /* Frameworks */,
@@ -175,8 +181,8 @@
 			children = (
 				0082B15B20BE612F007A86E6 /* CCRuntimeDemo.app */,
 				0007743C20CA89C200F513AC /* CCRuntimeSwiftiOS.app */,
-				0007746620CA8A2900F513AC /* CCRuntimeSwiftOSX.app */,
 				0007747A20CA8BDB00F513AC /* CCRuntimeOSX.app */,
+				0007749520CAACF000F513AC /* CCRuntimeSwiftOSX.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,23 +243,6 @@
 			productReference = 0007743C20CA89C200F513AC /* CCRuntimeSwiftiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0007746520CA8A2900F513AC /* CCRuntimeSwiftOSX */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0007747320CA8A2A00F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeSwiftOSX" */;
-			buildPhases = (
-				0007746220CA8A2900F513AC /* Sources */,
-				0007746320CA8A2900F513AC /* Frameworks */,
-				0007746420CA8A2900F513AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CCRuntimeSwiftOSX;
-			productName = CCRuntimeSwiftOSX;
-			productReference = 0007746620CA8A2900F513AC /* CCRuntimeSwiftOSX.app */;
-			productType = "com.apple.product-type.application";
-		};
 		0007747920CA8BDB00F513AC /* CCRuntimeOSX */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0007748B20CA8BDC00F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeOSX" */;
@@ -269,6 +258,23 @@
 			name = CCRuntimeOSX;
 			productName = CCRuntimeOSX;
 			productReference = 0007747A20CA8BDB00F513AC /* CCRuntimeOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0007749420CAACF000F513AC /* CCRuntimeSwiftOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000774A220CAACF100F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeSwiftOSX" */;
+			buildPhases = (
+				0007749120CAACF000F513AC /* Sources */,
+				0007749220CAACF000F513AC /* Frameworks */,
+				0007749320CAACF000F513AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCRuntimeSwiftOSX;
+			productName = CCRuntimeSwiftOSX;
+			productReference = 0007749520CAACF000F513AC /* CCRuntimeSwiftOSX.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0082B15A20BE612F007A86E6 /* CCRuntimeDemo */ = {
@@ -304,10 +310,10 @@
 					0007743B20CA89C200F513AC = {
 						CreatedOnToolsVersion = 9.4;
 					};
-					0007746520CA8A2900F513AC = {
+					0007747920CA8BDB00F513AC = {
 						CreatedOnToolsVersion = 9.4;
 					};
-					0007747920CA8BDB00F513AC = {
+					0007749420CAACF000F513AC = {
 						CreatedOnToolsVersion = 9.4;
 					};
 					0082B15A20BE612F007A86E6 = {
@@ -331,7 +337,7 @@
 				0082B15A20BE612F007A86E6 /* CCRuntimeDemo */,
 				0007747920CA8BDB00F513AC /* CCRuntimeOSX */,
 				0007743B20CA89C200F513AC /* CCRuntimeSwiftiOS */,
-				0007746520CA8A2900F513AC /* CCRuntimeSwiftOSX */,
+				0007749420CAACF000F513AC /* CCRuntimeSwiftOSX */,
 			);
 		};
 /* End PBXProject section */
@@ -347,19 +353,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0007746420CA8A2900F513AC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0007747820CA8BDB00F513AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0007748320CA8BDC00F513AC /* Assets.xcassets in Resources */,
 				0007748620CA8BDC00F513AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0007749320CAACF000F513AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0007749C20CAACF100F513AC /* Assets.xcassets in Resources */,
+				0007749F20CAACF100F513AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,14 +430,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0007744120CA89C200F513AC /* ViewController.swift in Sources */,
+				0007748F20CAAC6A00F513AC /* CCRuntimeTest.m in Sources */,
 				0007743F20CA89C200F513AC /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0007746220CA8A2900F513AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,9 +439,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0007748E20CAAC6900F513AC /* CCRuntimeTest.m in Sources */,
 				0007748120CA8BDC00F513AC /* ViewController.m in Sources */,
 				0007748920CA8BDC00F513AC /* main.m in Sources */,
 				0007747E20CA8BDB00F513AC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0007749120CAACF000F513AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0007749A20CAACF000F513AC /* ViewController.swift in Sources */,
+				0007749820CAACF000F513AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,18 +485,18 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		0007745A20CA89F900F513AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0007745B20CA89F900F513AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0007748420CA8BDC00F513AC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0007748520CA8BDC00F513AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0007749D20CAACF100F513AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0007749E20CAACF100F513AC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -548,52 +560,6 @@
 			};
 			name = Release;
 		};
-		0007747420CA8A2A00F513AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CCRuntimeSwiftOSX/CCRuntimeSwiftOSX.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = CCRuntimeSwiftOSX/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeSwiftOSX;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		0007747520CA8A2A00F513AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CCRuntimeSwiftOSX/CCRuntimeSwiftOSX.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = CCRuntimeSwiftOSX/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeSwiftOSX;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 		0007748C20CA8BDC00F513AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -631,6 +597,52 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeOSX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		000774A320CAACF100F513AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CCRuntimeSwiftOSX/CCRuntimeSwiftOSX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CCRuntimeSwiftOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeSwiftOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		000774A420CAACF100F513AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CCRuntimeSwiftOSX/CCRuntimeSwiftOSX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CCRuntimeSwiftOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeSwiftOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -790,20 +802,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0007747320CA8A2A00F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeSwiftOSX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0007747420CA8A2A00F513AC /* Debug */,
-				0007747520CA8A2A00F513AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		0007748B20CA8BDC00F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeOSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0007748C20CA8BDC00F513AC /* Debug */,
 				0007748D20CA8BDC00F513AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000774A220CAACF100F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeSwiftOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000774A320CAACF100F513AC /* Debug */,
+				000774A420CAACF100F513AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
