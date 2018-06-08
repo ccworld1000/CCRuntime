@@ -7,32 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		003AB51220C79E80003C69F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003AB51120C79E80003C69F6 /* AppDelegate.m */; };
-		003AB51520C79E80003C69F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003AB51420C79E80003C69F6 /* ViewController.m */; };
-		003AB51720C79E81003C69F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003AB51620C79E81003C69F6 /* Assets.xcassets */; };
-		003AB51A20C79E81003C69F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003AB51820C79E81003C69F6 /* Main.storyboard */; };
-		003AB51D20C79E81003C69F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 003AB51C20C79E81003C69F6 /* main.m */; };
+		0007741E20CA86A000F513AC /* CCRuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0007741D20CA86A000F513AC /* CCRuntimeTest.m */; };
+		0007743F20CA89C200F513AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007743E20CA89C200F513AC /* AppDelegate.swift */; };
+		0007744120CA89C200F513AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007744020CA89C200F513AC /* ViewController.swift */; };
+		0007744420CA89C200F513AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0007744220CA89C200F513AC /* Main.storyboard */; };
+		0007744620CA89C300F513AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0007744520CA89C300F513AC /* Assets.xcassets */; };
+		0007744920CA89C300F513AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0007744720CA89C300F513AC /* LaunchScreen.storyboard */; };
+		0007747E20CA8BDB00F513AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0007747D20CA8BDB00F513AC /* AppDelegate.m */; };
+		0007748120CA8BDC00F513AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0007748020CA8BDC00F513AC /* ViewController.m */; };
+		0007748320CA8BDC00F513AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0007748220CA8BDC00F513AC /* Assets.xcassets */; };
+		0007748620CA8BDC00F513AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0007748420CA8BDC00F513AC /* Main.storyboard */; };
+		0007748920CA8BDC00F513AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0007748820CA8BDC00F513AC /* main.m */; };
 		0082B16020BE612F007A86E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082B15F20BE612F007A86E6 /* AppDelegate.m */; };
 		0082B16320BE612F007A86E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082B16220BE612F007A86E6 /* ViewController.m */; };
 		0082B16620BE612F007A86E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0082B16420BE612F007A86E6 /* Main.storyboard */; };
 		0082B16820BE6130007A86E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0082B16720BE6130007A86E6 /* Assets.xcassets */; };
 		0082B16B20BE6130007A86E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0082B16920BE6130007A86E6 /* LaunchScreen.storyboard */; };
 		0082B16E20BE6130007A86E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082B16D20BE6130007A86E6 /* main.m */; };
-		9A8E62606C442BCAC35716ED /* libPods-CCRuntimeOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB00B54F73BAE29D110BFABD /* libPods-CCRuntimeOSX.a */; };
 		E85DCB576291A3848781761E /* libPods-CCRuntimeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B8DBF5AD451C09DCA12765 /* libPods-CCRuntimeDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		003AB50E20C79E80003C69F6 /* CCRuntimeOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRuntimeOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		003AB51020C79E80003C69F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		003AB51120C79E80003C69F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		003AB51320C79E80003C69F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		003AB51420C79E80003C69F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		003AB51620C79E81003C69F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		003AB51920C79E81003C69F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		003AB51B20C79E81003C69F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		003AB51C20C79E81003C69F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		003AB51E20C79E81003C69F6 /* CCRuntimeOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CCRuntimeOSX.entitlements; sourceTree = "<group>"; };
+		0007741C20CA86A000F513AC /* CCRuntimeTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCRuntimeTest.h; sourceTree = "<group>"; };
+		0007741D20CA86A000F513AC /* CCRuntimeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCRuntimeTest.m; sourceTree = "<group>"; };
+		0007743C20CA89C200F513AC /* CCRuntimeSwiftiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRuntimeSwiftiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0007743E20CA89C200F513AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0007744020CA89C200F513AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0007744320CA89C200F513AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0007744520CA89C300F513AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0007744820CA89C300F513AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0007744A20CA89C300F513AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0007745420CA89F800F513AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0007745620CA89F800F513AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0007745820CA89F900F513AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0007745B20CA89F900F513AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0007745D20CA89F900F513AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0007745E20CA89F900F513AC /* CCRuntimeSwiftOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CCRuntimeSwiftOSX.entitlements; sourceTree = "<group>"; };
+		0007746620CA8A2900F513AC /* CCRuntimeSwiftOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRuntimeSwiftOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0007747A20CA8BDB00F513AC /* CCRuntimeOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRuntimeOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0007747C20CA8BDB00F513AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0007747D20CA8BDB00F513AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0007747F20CA8BDC00F513AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0007748020CA8BDC00F513AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0007748220CA8BDC00F513AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0007748520CA8BDC00F513AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0007748720CA8BDC00F513AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0007748820CA8BDC00F513AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0007748A20CA8BDC00F513AC /* CCRuntimeOSX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CCRuntimeOSX.entitlements; sourceTree = "<group>"; };
 		0082B15B20BE612F007A86E6 /* CCRuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0082B15E20BE612F007A86E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0082B15F20BE612F007A86E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,11 +73,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		003AB50B20C79E80003C69F6 /* Frameworks */ = {
+		0007743920CA89C200F513AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8E62606C442BCAC35716ED /* libPods-CCRuntimeOSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0007746320CA8A2900F513AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0007747720CA8BDB00F513AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,18 +105,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		003AB50F20C79E80003C69F6 /* CCRuntimeOSX */ = {
+		0007741B20CA868000F513AC /* CCRuntimeTest */ = {
 			isa = PBXGroup;
 			children = (
-				003AB51020C79E80003C69F6 /* AppDelegate.h */,
-				003AB51120C79E80003C69F6 /* AppDelegate.m */,
-				003AB51320C79E80003C69F6 /* ViewController.h */,
-				003AB51420C79E80003C69F6 /* ViewController.m */,
-				003AB51620C79E81003C69F6 /* Assets.xcassets */,
-				003AB51820C79E81003C69F6 /* Main.storyboard */,
-				003AB51B20C79E81003C69F6 /* Info.plist */,
-				003AB51C20C79E81003C69F6 /* main.m */,
-				003AB51E20C79E81003C69F6 /* CCRuntimeOSX.entitlements */,
+				0007741C20CA86A000F513AC /* CCRuntimeTest.h */,
+				0007741D20CA86A000F513AC /* CCRuntimeTest.m */,
+			);
+			path = CCRuntimeTest;
+			sourceTree = "<group>";
+		};
+		0007743D20CA89C200F513AC /* CCRuntimeSwiftiOS */ = {
+			isa = PBXGroup;
+			children = (
+				0007743E20CA89C200F513AC /* AppDelegate.swift */,
+				0007744020CA89C200F513AC /* ViewController.swift */,
+				0007744220CA89C200F513AC /* Main.storyboard */,
+				0007744520CA89C300F513AC /* Assets.xcassets */,
+				0007744720CA89C300F513AC /* LaunchScreen.storyboard */,
+				0007744A20CA89C300F513AC /* Info.plist */,
+			);
+			path = CCRuntimeSwiftiOS;
+			sourceTree = "<group>";
+		};
+		0007745320CA89F800F513AC /* CCRuntimeSwiftOSX */ = {
+			isa = PBXGroup;
+			children = (
+				0007745420CA89F800F513AC /* AppDelegate.swift */,
+				0007745620CA89F800F513AC /* ViewController.swift */,
+				0007745820CA89F900F513AC /* Assets.xcassets */,
+				0007745A20CA89F900F513AC /* Main.storyboard */,
+				0007745D20CA89F900F513AC /* Info.plist */,
+				0007745E20CA89F900F513AC /* CCRuntimeSwiftOSX.entitlements */,
+			);
+			path = CCRuntimeSwiftOSX;
+			sourceTree = "<group>";
+		};
+		0007747B20CA8BDB00F513AC /* CCRuntimeOSX */ = {
+			isa = PBXGroup;
+			children = (
+				0007747C20CA8BDB00F513AC /* AppDelegate.h */,
+				0007747D20CA8BDB00F513AC /* AppDelegate.m */,
+				0007747F20CA8BDC00F513AC /* ViewController.h */,
+				0007748020CA8BDC00F513AC /* ViewController.m */,
+				0007748220CA8BDC00F513AC /* Assets.xcassets */,
+				0007748420CA8BDC00F513AC /* Main.storyboard */,
+				0007748720CA8BDC00F513AC /* Info.plist */,
+				0007748820CA8BDC00F513AC /* main.m */,
+				0007748A20CA8BDC00F513AC /* CCRuntimeOSX.entitlements */,
 			);
 			path = CCRuntimeOSX;
 			sourceTree = "<group>";
@@ -90,8 +159,11 @@
 		0082B15220BE612F007A86E6 = {
 			isa = PBXGroup;
 			children = (
+				0007741B20CA868000F513AC /* CCRuntimeTest */,
 				0082B15D20BE612F007A86E6 /* CCRuntimeDemo */,
-				003AB50F20C79E80003C69F6 /* CCRuntimeOSX */,
+				0007743D20CA89C200F513AC /* CCRuntimeSwiftiOS */,
+				0007745320CA89F800F513AC /* CCRuntimeSwiftOSX */,
+				0007747B20CA8BDB00F513AC /* CCRuntimeOSX */,
 				0082B15C20BE612F007A86E6 /* Products */,
 				A7E208BAE8CC957D8F2DA318 /* Pods */,
 				01092F4D6B78D8620FEF7204 /* Frameworks */,
@@ -102,7 +174,9 @@
 			isa = PBXGroup;
 			children = (
 				0082B15B20BE612F007A86E6 /* CCRuntimeDemo.app */,
-				003AB50E20C79E80003C69F6 /* CCRuntimeOSX.app */,
+				0007743C20CA89C200F513AC /* CCRuntimeSwiftiOS.app */,
+				0007746620CA8A2900F513AC /* CCRuntimeSwiftOSX.app */,
+				0007747A20CA8BDB00F513AC /* CCRuntimeOSX.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,15 +220,47 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		003AB50D20C79E80003C69F6 /* CCRuntimeOSX */ = {
+		0007743B20CA89C200F513AC /* CCRuntimeSwiftiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 003AB52120C79E81003C69F6 /* Build configuration list for PBXNativeTarget "CCRuntimeOSX" */;
+			buildConfigurationList = 0007744B20CA89C300F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeSwiftiOS" */;
 			buildPhases = (
-				1427484644F35897D578228D /* [CP] Check Pods Manifest.lock */,
-				003AB50A20C79E80003C69F6 /* Sources */,
-				003AB50B20C79E80003C69F6 /* Frameworks */,
-				003AB50C20C79E80003C69F6 /* Resources */,
-				ABE7DED7720F83580932C0E3 /* [CP] Copy Pods Resources */,
+				0007743820CA89C200F513AC /* Sources */,
+				0007743920CA89C200F513AC /* Frameworks */,
+				0007743A20CA89C200F513AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCRuntimeSwiftiOS;
+			productName = CCRuntimeSwiftiOS;
+			productReference = 0007743C20CA89C200F513AC /* CCRuntimeSwiftiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0007746520CA8A2900F513AC /* CCRuntimeSwiftOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0007747320CA8A2A00F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeSwiftOSX" */;
+			buildPhases = (
+				0007746220CA8A2900F513AC /* Sources */,
+				0007746320CA8A2900F513AC /* Frameworks */,
+				0007746420CA8A2900F513AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCRuntimeSwiftOSX;
+			productName = CCRuntimeSwiftOSX;
+			productReference = 0007746620CA8A2900F513AC /* CCRuntimeSwiftOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0007747920CA8BDB00F513AC /* CCRuntimeOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0007748B20CA8BDC00F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeOSX" */;
+			buildPhases = (
+				0007747620CA8BDB00F513AC /* Sources */,
+				0007747720CA8BDB00F513AC /* Frameworks */,
+				0007747820CA8BDB00F513AC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -162,7 +268,7 @@
 			);
 			name = CCRuntimeOSX;
 			productName = CCRuntimeOSX;
-			productReference = 003AB50E20C79E80003C69F6 /* CCRuntimeOSX.app */;
+			productReference = 0007747A20CA8BDB00F513AC /* CCRuntimeOSX.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0082B15A20BE612F007A86E6 /* CCRuntimeDemo */ = {
@@ -191,10 +297,17 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CC;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "cc | ccworld1000@gmail.com";
 				TargetAttributes = {
-					003AB50D20C79E80003C69F6 = {
+					0007743B20CA89C200F513AC = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					0007746520CA8A2900F513AC = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					0007747920CA8BDB00F513AC = {
 						CreatedOnToolsVersion = 9.4;
 					};
 					0082B15A20BE612F007A86E6 = {
@@ -216,18 +329,37 @@
 			projectRoot = "";
 			targets = (
 				0082B15A20BE612F007A86E6 /* CCRuntimeDemo */,
-				003AB50D20C79E80003C69F6 /* CCRuntimeOSX */,
+				0007747920CA8BDB00F513AC /* CCRuntimeOSX */,
+				0007743B20CA89C200F513AC /* CCRuntimeSwiftiOS */,
+				0007746520CA8A2900F513AC /* CCRuntimeSwiftOSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		003AB50C20C79E80003C69F6 /* Resources */ = {
+		0007743A20CA89C200F513AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003AB51720C79E81003C69F6 /* Assets.xcassets in Resources */,
-				003AB51A20C79E81003C69F6 /* Main.storyboard in Resources */,
+				0007744920CA89C300F513AC /* LaunchScreen.storyboard in Resources */,
+				0007744620CA89C300F513AC /* Assets.xcassets in Resources */,
+				0007744420CA89C200F513AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0007746420CA8A2900F513AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0007747820CA8BDB00F513AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0007748320CA8BDC00F513AC /* Assets.xcassets in Resources */,
+				0007748620CA8BDC00F513AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,44 +376,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1427484644F35897D578228D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CCRuntimeOSX-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ABE7DED7720F83580932C0E3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeOSX/Pods-CCRuntimeOSX-resources.sh",
-				"${PODS_ROOT}/../../LICENSE.MAObjCRuntime.txt",
-				"${PODS_ROOT}/../../LICENSE.txt",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.MAObjCRuntime.txt",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeOSX/Pods-CCRuntimeOSX-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E22CC92FD83BE1616DFD5260 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,13 +417,29 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		003AB50A20C79E80003C69F6 /* Sources */ = {
+		0007743820CA89C200F513AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003AB51520C79E80003C69F6 /* ViewController.m in Sources */,
-				003AB51D20C79E81003C69F6 /* main.m in Sources */,
-				003AB51220C79E80003C69F6 /* AppDelegate.m in Sources */,
+				0007744120CA89C200F513AC /* ViewController.swift in Sources */,
+				0007743F20CA89C200F513AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0007746220CA8A2900F513AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0007747620CA8BDB00F513AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0007748120CA8BDC00F513AC /* ViewController.m in Sources */,
+				0007748920CA8BDC00F513AC /* main.m in Sources */,
+				0007747E20CA8BDB00F513AC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0007741E20CA86A000F513AC /* CCRuntimeTest.m in Sources */,
 				0082B16320BE612F007A86E6 /* ViewController.m in Sources */,
 				0082B16E20BE6130007A86E6 /* main.m in Sources */,
 				0082B16020BE612F007A86E6 /* AppDelegate.m in Sources */,
@@ -346,10 +457,34 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		003AB51820C79E81003C69F6 /* Main.storyboard */ = {
+		0007744220CA89C200F513AC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				003AB51920C79E81003C69F6 /* Base */,
+				0007744320CA89C200F513AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0007744720CA89C300F513AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0007744820CA89C300F513AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0007745A20CA89F900F513AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0007745B20CA89F900F513AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0007748420CA8BDC00F513AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0007748520CA8BDC00F513AC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -373,9 +508,94 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		003AB51F20C79E81003C69F6 /* Debug */ = {
+		0007744C20CA89C300F513AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5132F37C8521420F6AF2A0AF /* Pods-CCRuntimeOSX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCRuntimeSwiftiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeSwiftiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0007744D20CA89C300F513AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCRuntimeSwiftiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeSwiftiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0007747420CA8A2A00F513AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CCRuntimeSwiftOSX/CCRuntimeSwiftOSX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CCRuntimeSwiftOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeSwiftOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		0007747520CA8A2A00F513AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CCRuntimeSwiftOSX/CCRuntimeSwiftOSX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CCRuntimeSwiftOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCRuntimeSwiftOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		0007748C20CA8BDC00F513AC /* Debug */ = {
+			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CCRuntimeOSX/CCRuntimeOSX.entitlements;
@@ -394,9 +614,8 @@
 			};
 			name = Debug;
 		};
-		003AB52020C79E81003C69F6 /* Release */ = {
+		0007748D20CA8BDC00F513AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43046489B9D73352BA2C6613 /* Pods-CCRuntimeOSX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CCRuntimeOSX/CCRuntimeOSX.entitlements;
@@ -562,11 +781,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		003AB52120C79E81003C69F6 /* Build configuration list for PBXNativeTarget "CCRuntimeOSX" */ = {
+		0007744B20CA89C300F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeSwiftiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				003AB51F20C79E81003C69F6 /* Debug */,
-				003AB52020C79E81003C69F6 /* Release */,
+				0007744C20CA89C300F513AC /* Debug */,
+				0007744D20CA89C300F513AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0007747320CA8A2A00F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeSwiftOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0007747420CA8A2A00F513AC /* Debug */,
+				0007747520CA8A2A00F513AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0007748B20CA8BDC00F513AC /* Build configuration list for PBXNativeTarget "CCRuntimeOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0007748C20CA8BDC00F513AC /* Debug */,
+				0007748D20CA8BDC00F513AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
