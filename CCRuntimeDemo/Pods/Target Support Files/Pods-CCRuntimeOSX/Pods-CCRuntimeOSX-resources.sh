@@ -92,12 +92,12 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../../LICENSE.MAObjCRuntime.txt"
-  install_resource "${PODS_ROOT}/../../LICENSE.txt"
+  install_resource "${PODS_ROOT}/CCRuntime/LICENSE.MAObjCRuntime.txt"
+  install_resource "${PODS_ROOT}/CCRuntime/LICENSE.txt"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../../LICENSE.MAObjCRuntime.txt"
-  install_resource "${PODS_ROOT}/../../LICENSE.txt"
+  install_resource "${PODS_ROOT}/CCRuntime/LICENSE.MAObjCRuntime.txt"
+  install_resource "${PODS_ROOT}/CCRuntime/LICENSE.txt"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

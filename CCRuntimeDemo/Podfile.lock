@@ -1,16 +1,16 @@
 PODS:
-  - CCRuntime (2.0.1)
+  - CCRuntime (2.0.2)
 
 DEPENDENCIES:
-  - CCRuntime (from `..`)
+  - CCRuntime
 
-EXTERNAL SOURCES:
-  CCRuntime:
-    :path: ".."
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CCRuntime
 
 SPEC CHECKSUMS:
-  CCRuntime: d53a81a4e9ff74c471c0b27ddc53ce1e3cbb49bc
+  CCRuntime: eb7c82fdce5fb7bfc6c78f67725539bd12e0da2a
 
-PODFILE CHECKSUM: c08e744f39f5de17ec1d25b19dba08a9d4298af6
+PODFILE CHECKSUM: 01ebda4e7456be2e4305aabe18a2c6115938260c
 
 COCOAPODS: 1.5.2

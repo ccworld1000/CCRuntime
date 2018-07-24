@@ -1,1 +1,1 @@
-../../../../../CCRuntime/CCProtocol.h
+../../../CCRuntime/CCRuntime/CCProtocol.h

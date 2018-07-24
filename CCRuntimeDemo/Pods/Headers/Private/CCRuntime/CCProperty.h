@@ -1,1 +1,1 @@
-../../../../../CCRuntime/CCProperty.h
+../../../CCRuntime/CCRuntime/CCProperty.h

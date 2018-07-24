@@ -1,22 +1,22 @@
 CCRuntime
 -------------
-(CCRuntime convert MAObjCRuntime for ARC)
+(CCRuntime 转换 MAObjCRuntime 为 ARC 模式)
 
-CCRuntime is an ObjC wrapper around the Objective-C runtime APIs. If that's confusing, it provides a nice object-oriented interface around (some of) the C functions in /usr/include/objc.
+CCRuntime 是基于Objective-C 运行时封装的APIs集. 如果令人困惑, 它提供友好的面向对象接口基于/usr/include/objc中的C函数.
 
-CCRuntime is released under a BSD license. For the official license, see the LICENSE file.
+CCRuntime在BSD许可证下发布的。对于官方许可证，请参阅许可证文件。 
 
-Multilingual translation
+多国语言翻译
 -------------
 
-[Chinese README](README.zh.md)
+[英文README](README.md)
 
-Quick Start
+快速开始
 -----------
 
 The action begins in `CCRuntime.h`. Various methods are added to `NSObject` to allow querying and manipulation. Most of these are class methods, because they operate on classes. There are a couple of instance methods as well. All of these methods start with `cc_` to avoid name conflicts. The `CCMethod` and `CCIvar` classes are used to represent a single method and a single instance variable, respectively. Their use should be fairly obvious.
 
-Querying
+查询
 --------
 
 You can query any class's methods, instance variables, or other attributes using the methods provided. For example:
@@ -35,7 +35,7 @@ You can query any class's methods, instance variables, or other attributes using
     // how big is a constant string instance?
     NSLog(@"%ld", (long)[[@"foo" cc_class] cc_instanceSize]);
 
-Modifying
+修改
 ---------
 
 You can add new methods using `+cc_addMethod:`. You can modify the implementation of an existing method using the `-setImplementation:` method on `CCMethod`. Example:
@@ -56,7 +56,7 @@ Objects
 
 Two instance methods are provided as well. `-cc_class` exists because Apple likes to fiddle with the return value of `-class`, and `-cc_class` always gives you the right value. `-cc_setClass:` does pretty much what it says: sets the class of the object. It won't reallocate the object or anything, so the new class had better have a memory layout that's compatible with the old one, or else hilarity will ensue.
 
-Sending Messages
+发送消息
 ----------------
 
 After getting a list of methods from a class, it's common to want to actually use those on instances of the class. `CCMethod` provides an easy method for doing this, as well as several convenience wrappers around it.
@@ -127,7 +127,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 ***
-### Other LICENSE
+### 其他许可证
 ***
 
 [MAObjCRuntime LICENSE](LICENSE.MAObjCRuntime.txt) 

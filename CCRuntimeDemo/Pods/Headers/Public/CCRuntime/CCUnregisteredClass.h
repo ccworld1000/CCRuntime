@@ -1,1 +1,1 @@
-../../../../../CCRuntime/CCUnregisteredClass.h
+../../../CCRuntime/CCRuntime/CCUnregisteredClass.h
