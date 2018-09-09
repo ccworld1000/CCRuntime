@@ -96,7 +96,7 @@ Finally, there are a pair of convenience methods that take a selector, and combi
 
 BSD 3-Clause License
 
-Copyright (c) 2018-now ccworld1000 | bug : <a href="mailto:2291108617@qq.com">2291108617@qq.com</a> and <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
+Copyright (c) 2018-now ccworld1000 | bug : <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
 
 All rights reserved.
 
