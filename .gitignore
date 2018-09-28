@@ -1,6 +1,7 @@
 CCRuntimeDemo/Podfile.lock
-CCRuntimeDemo/Podfile
 CCRuntimeDemo/Pods
+CCRuntimeDemo/Podfile
+Podfile
 .DS_Store
 a.out
 *.dSYM
