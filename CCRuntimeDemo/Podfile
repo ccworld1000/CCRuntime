@@ -1,59 +1,61 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+
 ###################################################
+target 'CCRuntimeDemo' do
+
+    pod 'CCRuntime'
+
+end
+
+target 'CCRuntimeOSX' do
+
+    pod 'CCRuntime'
+
+end
+
+target 'CCRuntimeSwiftiOS' do
+
+    pod 'CCRuntime'
+
+end
+
+target 'CCRuntimeSwiftOSX' do
+
+    pod 'CCRuntime'
+
+end
+
+
+###################################################
+
+
+##################################################
 #target 'CCRuntimeDemo' do
 #
-#    pod 'CCRuntime'
+#    pod 'CCRuntime',path:".."
 #
 #end
 #
 #target 'CCRuntimeOSX' do
 #
-#    pod 'CCRuntime'
+#    pod 'CCRuntime',path:".."
 #
 #end
 #
 #target 'CCRuntimeSwiftiOS' do
 #
-#    pod 'CCRuntime'
+#    pod 'CCRuntime',path:".."
 #
 #end
 #
 #target 'CCRuntimeSwiftOSX' do
 #
-#    pod 'CCRuntime'
+#    pod 'CCRuntime',path:".."
 #
 #end
-#
-#
-###################################################
-
-
-##################################################
-target 'CCRuntimeDemo' do
-    
-    pod 'CCRuntime',path:".."
-    
-end
-
-target 'CCRuntimeOSX' do
-    
-    pod 'CCRuntime',path:".."
-    
-end
-
-target 'CCRuntimeSwiftiOS' do
-    
-    pod 'CCRuntime',path:".."
-    
-end
-
-target 'CCRuntimeSwiftOSX' do
-    
-    pod 'CCRuntime',path:".."
-    
-end
 
 ##################################################
 

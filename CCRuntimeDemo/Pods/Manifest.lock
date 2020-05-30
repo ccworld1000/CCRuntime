@@ -5,12 +5,12 @@ DEPENDENCIES:
   - CCRuntime
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - CCRuntime
 
 SPEC CHECKSUMS:
   CCRuntime: eb7c82fdce5fb7bfc6c78f67725539bd12e0da2a
 
-PODFILE CHECKSUM: 01ebda4e7456be2e4305aabe18a2c6115938260c
+PODFILE CHECKSUM: 3ab2e7cdf57550d03d3ef9112899ef6736797cc3
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.9.1

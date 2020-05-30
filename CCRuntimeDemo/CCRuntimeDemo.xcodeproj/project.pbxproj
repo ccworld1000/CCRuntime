@@ -418,19 +418,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeSwiftiOS/Pods-CCRuntimeSwiftiOS-resources.sh",
-				"${PODS_ROOT}/CCRuntime/LICENSE.MAObjCRuntime.txt",
-				"${PODS_ROOT}/CCRuntime/LICENSE.txt",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCRuntimeSwiftiOS/Pods-CCRuntimeSwiftiOS-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.MAObjCRuntime.txt",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.txt",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCRuntimeSwiftiOS/Pods-CCRuntimeSwiftiOS-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeSwiftiOS/Pods-CCRuntimeSwiftiOS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CCRuntimeSwiftiOS/Pods-CCRuntimeSwiftiOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2FF9774BA59C1B87518DACCC /* [CP] Check Pods Manifest.lock */ = {
@@ -456,19 +453,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeSwiftOSX/Pods-CCRuntimeSwiftOSX-resources.sh",
-				"${PODS_ROOT}/CCRuntime/LICENSE.MAObjCRuntime.txt",
-				"${PODS_ROOT}/CCRuntime/LICENSE.txt",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCRuntimeSwiftOSX/Pods-CCRuntimeSwiftOSX-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.MAObjCRuntime.txt",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.txt",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCRuntimeSwiftOSX/Pods-CCRuntimeSwiftOSX-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeSwiftOSX/Pods-CCRuntimeSwiftOSX-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CCRuntimeSwiftOSX/Pods-CCRuntimeSwiftOSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C7BED7CF7038E0E9272008AA /* [CP] Copy Pods Resources */ = {
@@ -476,19 +470,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeOSX/Pods-CCRuntimeOSX-resources.sh",
-				"${PODS_ROOT}/CCRuntime/LICENSE.MAObjCRuntime.txt",
-				"${PODS_ROOT}/CCRuntime/LICENSE.txt",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCRuntimeOSX/Pods-CCRuntimeOSX-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.MAObjCRuntime.txt",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.txt",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCRuntimeOSX/Pods-CCRuntimeOSX-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeOSX/Pods-CCRuntimeOSX-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CCRuntimeOSX/Pods-CCRuntimeOSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E22CC92FD83BE1616DFD5260 /* [CP] Check Pods Manifest.lock */ = {
@@ -550,19 +541,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeDemo/Pods-CCRuntimeDemo-resources.sh",
-				"${PODS_ROOT}/CCRuntime/LICENSE.MAObjCRuntime.txt",
-				"${PODS_ROOT}/CCRuntime/LICENSE.txt",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCRuntimeDemo/Pods-CCRuntimeDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.MAObjCRuntime.txt",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE.txt",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCRuntimeDemo/Pods-CCRuntimeDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCRuntimeDemo/Pods-CCRuntimeDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CCRuntimeDemo/Pods-CCRuntimeDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
